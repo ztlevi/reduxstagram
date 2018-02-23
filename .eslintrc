@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:prettier/recommended"
+  ],
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": [2, "never"],
+    "babel/new-cap": 1,
+    "babel/no-invalid-this": 1,
+    "babel/semi": 1
+  },
+  "plugins": ["babel", "react", "import", "prettier"]
+}
